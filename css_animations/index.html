@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="styles.css" rel="stylesheet">
+		<title>CSS animations</title>
+	</head>
+	<body>
+		<h1 class="shake"> CSS animations </h1>
+		<a href="http://jxnblk.com/skullcat/">If you haven't seen this, go watch it</a>
+		Css animations are easy. Inspect this page. There is no JavaScript file on this page.
+		<p> 
+			Start by creating a new HTML file inside a new folder. It should look something like this:
+			<br>
+			<code>
+				&lt;html&gt;
+				<br>
+				&emsp;	&lt;head&gt;
+				<br>
+				&emsp;&emsp;  &lt;link href="styles.css" rel="stylesheet"&gt;
+				<br>
+				&emsp;	&lt;/head&gt;
+				<br>
+				&emsp;	&lt;body&gt;
+				<br>
+				&emsp;	&lt;/body&gt;
+				<br>
+				&lt;/html&gt;
+			</code>
+		</p>
+		<p>
+			<br>
+			<br>
+			I can not stress this enough,
+			<h3> If you want to make this your own, feel free to Google (or ask) for help </h3>
+			Now create a file called styles.css in the same folder, most of our work will be in here.
+			<br>
+			To start out, we should create out first animation. Please don't copy paste the code,
+			<br>
+		 	type it out. You really want to remember how to do this without looking every time.
+			<code> 
+				@keyframes animation_name {
+				<br>&emsp;from{color:red;}
+				<br>&emsp;to  {color:blue;}
+				<br>}
+			</code>
+			<br>
+			We load our page but nothing happens...
+			<br>
+			Well we need an element to change, so lets do that.
+			<br>
+			Add some element. Why not some text? Lets add a P element.
+			<br>
+			<code>
+			&lt;p&gt;
+			Some text here
+			&lt;/p&gt;
+			</code>
+			<br>
+			Now lets change it in CSS
+			<code>
+				p{<br>
+				&emsp;	animation-name: animation_name;<br>
+				&emsp;	animation-duration: 4s;<br>
+				}
+			</code>
+			<p id="redtoblue"> It should look something like this </p>
+			<p> If you want it to repeat several times, add something like </p>
+			<code> animation-iteration-count: infinite; </code>
+			<br>
+			If you want to delay the animation by several seconds, use
+			<br>
+			<code>
+				animation-delay: 1s;
+			</code>
+			There are many other things you can do with just animations, One major one
+			<br>
+			I left out is the ability to have more than just a 'to' and 'from' statement.
+			<br>
+			You can replace them with 0% and 100% and add other values in between.
+			<br>
+			If you want to learn more about them, see <a href="https://www.w3schools.com/css/css3_animations.asp">this website</a> all about animations.
+			</br>
+			If you want to see some of the cool stuff you can do with just animations <br>
+			check <a href="https://duckduckgo.com/?q=css+animations&t=canonical&ia=answer&iai=0">this</a> out
+			<br>
+		</p>
+			<h1>What now?</h1>
+                        We are now competing to build the best website using css animations. You may submit one site that you think might beat all of the others
+			<br>
+			They will be rated on:
+			<li>
+				<ul>Humor: include memes, sounds, pictures, and other goofs</ul>
+				<ul>Un-usablity/Useablity: Your website should either make someone dizzy or be an ease to the reader. Try moving text boxes around randomly or allow their eyes to rest and read.</ul>
+				<ul>Creativity: Your website should be different from your neighbors.</ul>
+				<ul>Bad/Good: Using animations, you can make your website both very bad and very good</ul>
+				<ul>Boldness: Use something you found on google, or several things you found on google. Create elements with animations that happen when you hover over them and such</ul>
+				<ul>Pain/Ease (Optional): It should be very painful or very easy to use your website.</ul>
+				<ul>Memes (Optional): Include grand macs, timbs, the B emoji, whom, or some other great meme.</ul>
+			</li>
+
+	<h2>Ideas</h2>
+	<ul>
+		<li id="hover">Use :hover to get elements to change when you hover over them.</li>
+		<li id="size">Make elements change size by editing their width and height properties.</li>
+		<li class="shake">Make elements do several changes at the same exact time (see top of this page).</li>
+		<li>Make elments spin by using something like "transform: rotate(180deg);" and "transform:roate(0deg);" to rotate the element.</li>	
+		<li>Make elements go from sqaures to circles by editing their "border-radius" property.</li>
+		<li>Add in some delayed animations to have a fade in sequence.</li>
+		<li>Add in a song and have it synced to the animations.</li>	
+		<li>Have a huge picture that is scrolled up or down by changing its margin-top (ask me).</li>
+		<li>Edit a background picture to scroll. I'm not sure how you would do this, but I bet it's possible.</li>
+		<li id="shake2">Make elements shake back and forth by setting the margin-left and 
+		margin-top to negative and postive numbers (do 20 to -20 to 20 and repeat).</li>
+
+	</ul>
+	Still not satisfied? Tried all of those and don't like them? Go <a href="https://www.w3schools.com/css/default.asp">here</a> and pick one of the many topics on their sidebar. Yoy can find all sorts of stuff I just didn't list here <br>
+	<h2>If you have a problem, ask me. Don't give up, keep trying. Do well and you will win!</h2>	
+	</body>
+</html>

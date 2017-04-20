@@ -1,0 +1,69 @@
+@keyframes shake_an {
+	0% {margin-right: -20px;
+	color: red;}
+	50% {margin-right: 20px;
+	color: blue;}
+	100% {margin-right: -20px;
+	color: red;}
+}
+@keyframes redtoblue_an {
+	from{color:red;}
+	to  {color:blue;}
+}
+@keyframes hover_an{
+	from{background-color:lightgrey;
+	height: 17px;}
+	to{background-color:yellow;
+	height: 30px;}
+}
+@keyframes alt_shake{
+	0%  {margin: 0px 0px}
+	16% {margin: 20px -20px}
+	32% {margin: 0px 0px}
+	48% {margin: -20px 20}
+	64% {margin: 0px -20px}
+	80% {margin: 20px 0px}
+	100%{margin: 0px 0px}
+}
+
+h1{
+	
+}
+.shake{
+	text-align: center;
+	animation-name: shake_an;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+
+}
+code{
+	padding: 10px;
+	background-color: lightgray;
+	display: block;
+	width: 400px;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+
+#redtoblue{
+	animation-name: redtoblue_an;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+
+}
+
+#hover{
+	background-color: lightgrey;
+}
+
+#hover:hover{
+	animation-fill-mode: forwards;
+	animation-name: hover_an;
+	animation-duration: 1s;
+}
+#shake2{
+	animation-name: alt_shake;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
