@@ -19,16 +19,9 @@ div {
 }
 
 .logo {
-  position: absolute;
-  bottom: 0;
+  font-size: 50px;
   text-align: center;
-  margin-left: 206px;
-  margin-bottom: 50px;
-}
-
-.logo img {
-  height: 30px;
-
+  font-family: 'Amaranth', sans-serif;
 }
 
 small {
