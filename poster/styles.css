@@ -1,0 +1,36 @@
+div {
+  position: relative;
+  background-color: #FAFAFA;
+  color: #E42D40;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 650px;
+  height: 1100px;
+}
+
+.f40 {
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.huge {
+  font-size: 130px;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin-left: 206px;
+  margin-bottom: 50px;
+}
+
+.logo img {
+  height: 30px;
+
+}
+
+small {
+  font-size: 20px;
+}
