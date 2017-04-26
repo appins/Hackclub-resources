@@ -23,3 +23,8 @@ A workshop I created that people with a good skill level would have fun with.
 Unfortunately, It didn't work too well with my school and wasn't really fun. If
 you had someone copy the code, you likely wouldn't have it last more than 20
 minutes. Although it isn't brittle, so you can swap out the code fairly easily.
+
+### CSS Animations Workshop (Markdown Workshop)
+I re-did my CSS animations workshop and am considering posting it to the 
+offical hackclub github repository. This one is better written and formatted
+well. It still needs pictures and gifs though...
