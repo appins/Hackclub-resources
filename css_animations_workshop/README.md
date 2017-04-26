@@ -104,3 +104,13 @@ Some possible ideas would be
 
 Want to do something more advanced? Check out some of
 [these](http://bit.ly/2p2RfsN).
+
+
+Done or found a good stopping place? Now would be a great time to contribute
+your code. To do this, go to the terminal section in Cloud9 and type this in:
+
+```sh
+  git add --all
+  git commit -m"Added animations"
+  git push
+```
