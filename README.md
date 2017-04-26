@@ -10,7 +10,7 @@ the MIT license.
 To use the poster creator, visit the `poster` directory.
 You can edit the files `index.html` and `styles.css` to change elements of the poster.
 If you want to get the poster, open up a browser and print it to a PDF file. Then send
-or print the PDF.
+or print the PDF. Currently the poster is standard US Letter paper sized.
 
 ### CSS Animations (HTML workshop... oops...)
 A little workshop I created to be much less brittle than most other projects.
