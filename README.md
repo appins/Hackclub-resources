@@ -28,3 +28,8 @@ minutes. Although it isn't brittle, so you can swap out the code fairly easily.
 I re-did my CSS animations workshop and am considering posting it to the 
 offical hackclub github repository. This one is better written and formatted
 well. It still needs pictures and gifs though...
+
+### Workshop Themes 
+This is a list of themes that you are free to use in your club meetings.
+If your members run out of ideas or workshops and want to create something
+cool, they should try creating a website based on this theme.
