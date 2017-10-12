@@ -33,3 +33,10 @@ well. It still needs pictures and gifs though...
 This is a list of themes that you are free to use in your club meetings.
 If your members run out of ideas or workshops and want to create something
 cool, they should try creating a website based on this theme.
+
+### Hackclub Showcase
+The contents of this folder are being hosted on appins.github.io.
+This contains a showcase that I made for my club. It was used at
+a club fair that was hosted last school term of lsat year and will
+likly be used again in the next club fair. It is my go-to to show
+off.
