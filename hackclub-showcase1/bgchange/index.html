@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Soothing colors</title>
+    <script src="main.js" charset="utf-8"></script>
+    <style media="screen" id="css">
+      body, html, div {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+      }
+
+      @keyframes clr {
+        from{
+          background-color: orange;
+        }
+        50% {
+          background-color: purple;
+        }
+        to {
+          background-color: orange;
+        }
+      }
+      div{
+        width: 45vw;
+        height: 100vh;
+        display: inline-block;
+        position: relative;
+        margin-right: 3vw;
+        float: left;
+      }
+      .colors {
+        animation-name: clr;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="colors">
+      <br>
+    </div>
+    <div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <textarea name="css" rows="35" cols="100" id="tacss"></textarea>
+      <br>
+      <br>
+      <button type="button" name="button" id="update">Update</button>
+    </div>
+  </body>
+</html>

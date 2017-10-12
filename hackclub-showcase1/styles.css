@@ -1,0 +1,70 @@
+@keyframes hoverbackground {
+  from {
+    background-color: rgba(10, 10, 10, 0.90);
+  }
+  to {
+    background-color: rgba(10, 10, 10, 0.60);
+  }
+}
+
+.icon {
+  width: 48.5vw;
+  height: 49.5vh;
+  display: inline-block;
+  border-width: 0.05vw;
+  border-color: black;
+  border-style: solid;
+  margin: 0;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.poster {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("postercreator.png");
+}
+
+.bgani {
+  background-image: url("soothing.gif");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.memepage {
+  background-image: url("starwars.gif");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.hoverbg {
+  background-color: rgba(10, 10, 10, 0.90);
+  text-align: center;
+  font-size: 10vh;
+}
+
+.hoverbg:hover {
+  animation-name: hoverbackground;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+
+}
+
+.particles {
+
+  background-image: url("particles.gif");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.hoverbg a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
