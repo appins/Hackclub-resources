@@ -1,3 +1,4 @@
+[![AppIns](https://i.imgur.com/xEPu5Ug.png)](https://github.com/appins)
 # Hack Club Resources
 Some resources for starting and running a successful Hack Club.
 If you find bugs or errors, please contact alexandersonone@gmail.com,
